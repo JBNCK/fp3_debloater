@@ -25,11 +25,12 @@ google it idk
 Instructions for MacOS/Windows (If you are on MacOS also read 'Running the script (Linux/Unix/MacOS!)' below:
 ```
 MacOS:
-download it from the android developers website and but the files in the extracted folder. In debloat.sh replace every 'sudo adb' with './adb' (without the quotes' and remove the #!/bin/bash. I am not sure how to run shell scripts though. I would assume it is the same way as listed below but if it doesnt work, google it.
+download 'Platform tools' from the android developers website and but the files in the extracted folder. In debloat.sh replace every 'sudo adb' with './adb' (without the quotes' and remove the #!/bin/bash. I am not sure how to run shell scripts though. I would assume it is the same way as listed below but if it doesnt work, google it.
 
 Windows:
-download it from the android developers website and but the files in the extracted folder. Enable file extensions on the top of the file explorer by pressing 'View >> Enable file extensions' or something similar. Replace the .sh extension with a .bat extension. Inside the debloat.sh (now debloat.bat) file remove every 'sudo' and remove the #!/bin/bash. Run the script by double clicking.
+download 'Platform tools' from the android developers website and but the files in the extracted folder. Enable file extensions on the top of the file explorer by pressing 'View >> Enable file extensions' or something similar. Replace the .sh extension with a .bat extension. Inside the debloat.sh (now debloat.bat) file remove every 'sudo' and remove the #!/bin/bash. Run the script by double clicking.
 ```
+Platform tools (Windows/MacOS): https://developer.android.com/studio/releases/platform-tools
 # Running the script (Linux/Unix/MacOS!)
 Extract the release file and open a terminal inside of the extracted folder. Then type in these commands:
 ```
