@@ -30,7 +30,7 @@ download it from the android developers website and but the files in the extract
 Windows:
 download it from the android developers website and but the files in the extracted folder. Enable file extensions on the top of the file explorer by pressing 'View >> Enable file extensions' or something similar. Replace the .sh extension with a .bat extension. Inside the debloat.sh (now debloat.bat) file remove every 'sudo' and remove the #!/bin/bash. Run the script by double clicking.
 ```
-Running the script (Linux/Unix/MacOS!)
+# Running the script (Linux/Unix/MacOS!)
 Extract the release file and open a terminal inside of the extracted folder. Then type in these commands:
 ```
 sudo chmod 777 *
