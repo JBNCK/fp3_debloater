@@ -4,6 +4,7 @@ Debloater for the alredy minimal FairphoneOS running on the Fairphone 3.
 This script installs/replaces various apps on your Fairphone. By running this script you acceps the licenses of those apps. The apps are selected by me and are either open source or contain no/less trackers (checked with exodus). The license of the actual debloater file is GPL v3.
 # Requirements and instructions (READ CAREFULLY!)
 To run the script on linux, see 'Running the script (Linux/Unix/MacOS!)' below. To run the scripts you also need:
+
 -Android Debug Bridge (ADB). to install on Linux type in:
 ```
 Ubuntu/Debian based:
