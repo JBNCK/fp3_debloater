@@ -3,6 +3,9 @@ Debloater for the alredy minimal FairphoneOS running on the Fairphone 3.
 # Notice
 This script installs/replaces various apps on your Fairphone. By running this script you acceps the licenses of those apps. The apps are selected by me and are either open source or contain no/less trackers (checked with exodus). The license of the actual debloater file is GPL v3.
 # Requirements and instructions (READ CAREFULLY!)
+Fist you'll need USB debugging enabled on your phone. To do that, we also must have developer options enabled. To do that, go into 'settings >> about phone' and tap the build number 7 times (It may ask you for your pin code/pattern). Congrats! Now when you go back to settings, you'll see developer options under the 'system' category. In the developer options, scroll down a bit and enable 'USB debugging' (might also be called 'Android debugging'). Now if you run the script, it'll show a confirmation prompt. Confirm when it pops up (It might even show up directly after you enable USB/Android debugging). 
+
+
 To run the script on linux, see 'Running the script (Linux/Unix/MacOS!)' below. To run the scripts you also need:
 
 -Android Debug Bridge (ADB). to install on Linux type in:
