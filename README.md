@@ -32,6 +32,8 @@ Additional steps for MacOS:
 MacOS:
 download 'Platform tools' from the Android Developers website (linked above) and but the files in the extracted folder. In debloat.sh replace every 'sudo adb' with './adb' (without the quotes' and remove the #!/bin/bash. I am not sure how to run shell scripts though. I would assume it is the same way as listed below but if it doesnt work, google it.
 ```
+
+Running the script (Linux/Unix/MacOS):
 Extract the release file and open a terminal inside of the extracted folder. Then type in these commands:
 ```
 sudo chmod 777 *
@@ -39,7 +41,7 @@ sh debloat.sh
 ```
 The script will take around 1-2 minutes to debloat your phone. To complete the process, reboot your phone.
 # Running the script (Windows)
-double click the ```debloat_win.bat``` file. The debloat process should start automatically
+double click the ```debloat_win.bat``` file. The debloat process should start automatically. The script will take around 1-2 minutes to debloat your phone. To complete the process, reboot your phone.
 # Getting apps back
 There is currently no rebloater. but if you want to get a package/app back, just find out the package name (via the debloater, package names viewer 2.0 (play store) or whatever) and type in (terminal):
 ```
