@@ -7,7 +7,6 @@ Fist you'll need USB debugging enabled on your phone. To do that, we also must h
 
 
 To run the script on linux, see 'Running the script (Linux/Unix/MacOS!)' below. To run the scripts you also need:
-
 -Android Debug Bridge (ADB). to install on Linux type in:
 ```
 Ubuntu/Debian based:
@@ -25,22 +24,22 @@ haha compile it for yourself or use another PC idk I use Arch
 Others:
 google it idk
 ```
-Instructions for MacOS/Windows (If you are on MacOS also read 'Running the script (Linux/Unix/MacOS!)' below:
+Link to the Android Developers website:
+Platform tools (Windows/MacOS): https://developer.android.com/studio/releases/platform-tools
+# Running the script (Linux/Unix/MacOS)
+Additional steps for MacOS:
 ```
 MacOS:
-download 'Platform tools' from the android developers website and but the files in the extracted folder. In debloat.sh replace every 'sudo adb' with './adb' (without the quotes' and remove the #!/bin/bash. I am not sure how to run shell scripts though. I would assume it is the same way as listed below but if it doesnt work, google it.
-
-Windows:
-download 'Platform tools' from the android developers website and but the files in the extracted folder. Enable file extensions on the top of the file explorer by pressing 'View >> Enable file extensions' or something similar. Replace the .sh extension with a .bat extension. Inside the debloat.sh (now debloat.bat) file remove every 'sudo' and remove the #!/bin/bash. Run the script by double clicking.
+download 'Platform tools' from the Android Developers website (linked above) and but the files in the extracted folder. In debloat.sh replace every 'sudo adb' with './adb' (without the quotes' and remove the #!/bin/bash. I am not sure how to run shell scripts though. I would assume it is the same way as listed below but if it doesnt work, google it.
 ```
-Platform tools (Windows/MacOS): https://developer.android.com/studio/releases/platform-tools
-# Running the script (Linux/Unix/MacOS!)
 Extract the release file and open a terminal inside of the extracted folder. Then type in these commands:
 ```
 sudo chmod 777 *
-./debloat.sh
+sh debloat.sh
 ```
 The script will take around 1-2 minutes to debloat your phone. To complete the process, reboot your phone.
+# Running the script (Windows)
+double click the ```debloat_win.bat``` file. The debloat process should start automatically
 # Getting apps back
 There is currently no rebloater. but if you want to get a package/app back, just find out the package name (via the debloater, package names viewer 2.0 (play store) or whatever) and type in (terminal):
 ```
