@@ -42,6 +42,8 @@ sh debloat.sh
 The script will take around 1-2 minutes to debloat your phone. To complete the process, reboot your phone.
 # Running the script (Windows)
 double click the ```debloat_win.bat``` file. The debloat process should start automatically. The script will take around 1-2 minutes to debloat your phone. To complete the process, reboot your phone.
+# Post-running
+Make sure to configure OpenBoard via the app or you'll have no keyboard. OpenBoard is an open source keyboard app and a replacement for GBoard. The app itself guides you thru the configuration.
 # Getting apps back
 There is currently no rebloater. but if you want to get a package/app back, just find out the package name (via the debloater, package names viewer 2.0 (play store) or whatever) and type in (terminal):
 ```
