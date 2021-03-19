@@ -32,6 +32,7 @@ sudo adb shell pm uninstall -k --user 0 com.google.android.apps.messaging
 sudo adb shell pm uninstall -k --user 0 com.google.android.apps.photos
 sudo adb shell pm uninstall -k --user 0 com.android.chrome
 sudo adb shell pm uninstall -k --user 0 com.google.android.as
+sudo adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
 
 echo 'INSTALLING REPLACEMENTS'
 sudo adb install browser.apk
@@ -42,6 +43,7 @@ sudo adb install clock.apk
 sudo adb install calendar.apk
 sudo adb install calculator.apk
 sudo adb install gallery.apk
+sudo adb install keyboard.apk
 
 echo 'REMOVING QUALCOMM BLOAT'
 sudo adb shell pm uninstall -k --user 0 com.qualcomm.qti.qms.service.telemetry
