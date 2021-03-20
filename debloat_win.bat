@@ -30,8 +30,8 @@ adb shell pm uninstall -k --user 0 com.google.android.contacts
 adb shell pm uninstall -k --user 0 com.google.android.apps.messaging
 adb shell pm uninstall -k --user 0 com.google.android.apps.photos
 adb shell pm uninstall -k --user 0 com.android.chrome
-adb shell pm uninstall -k --user 0 com.google.android.as
 adb shell pm uninstall -k --user 0 com.google.android.inputmethod.latin
+adb shell pm uninstall -k --user 0 com.google.android.googlequicksearchbox
 
 echo INSTALLING REPLACEMENTS
 adb install browser.apk
@@ -43,6 +43,8 @@ adb install calendar.apk
 adb install calculator.apk
 adb install gallery.apk
 adb install keyboard.apk
+adb install launcher.apk
+adb install sty.apk
 
 echo REMOVING QUALCOMM BLOAT
 adb shell pm uninstall -k --user 0 com.qualcomm.qti.qms.service.telemetry
