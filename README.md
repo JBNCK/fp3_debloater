@@ -6,7 +6,7 @@ This script installs/replaces various apps on your Fairphone. By running this sc
 Fist you'll need USB debugging enabled on your phone. To do that, we also must have developer options enabled. To do that, go into 'settings >> about phone' and tap the build number 7 times (It may ask you for your pin code/pattern). Congrats! Now when you go back to settings, you'll see developer options under the 'system' category. In the developer options, scroll down a bit and enable 'USB debugging' (might also be called 'Android debugging'). Now if you run the script, it'll show a confirmation prompt. Confirm when it pops up (It might even show up directly after you enable USB/Android debugging). 
 
 
-To run the script on Linux, see 'Running the script (Linux/Unix/MacOS!)' below. 
+To run the script on Linux/Unix/MacOS, see 'Running the script (Linux/Unix/MacOS!)' below. 
 
 To run the script on Linux you'll also need:
 
