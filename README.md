@@ -45,7 +45,7 @@ Running the script (Linux/Unix/MacOS):
 Extract the release file and open a terminal inside of the extracted folder. Then type in these commands:
 ```
 sudo chmod 777 *
-./debloat.sh (or './debloat_mac.sh' without the quotes on MacOS)
+./debloat_[INSERT OS HERE (linux for Linux, mac for MacOS)].sh
 ```
 The script will take around 1-2 minutes to debloat your phone. To complete the process, reboot your phone.
 # Running the script (Windows)
