@@ -44,7 +44,7 @@ echo 'INSTALLING REPLACEMENTS'
 ./adb install calculator.apk
 ./adb install gallery.apk
 ./adb install keyboard.apk
-./adb install launcher.spk
+./adb install launcher.apk
 ./adb install sty.apk
 
 echo 'REMOVING QUALCOMM BLOAT'

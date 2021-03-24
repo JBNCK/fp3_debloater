@@ -45,7 +45,7 @@ sudo adb install calendar.apk
 sudo adb install calculator.apk
 sudo adb install gallery.apk
 sudo adb install keyboard.apk
-sudo adb install launcher.spk
+sudo adb install launcher.apk
 sudo adb install sty.apk
 
 echo 'REMOVING QUALCOMM BLOAT'
