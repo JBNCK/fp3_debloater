@@ -20,7 +20,6 @@ os.system(adb_command + "kill-server")
 os.system(adb_command + "start-server")
 clear_screen()
 
-# More packages to be added soon:
 def remove_google():
     print("Removing Google bloat/spyware...")
     os.system(adb_command + "shell pm uninstall --user 0 com.android.vending")
@@ -34,21 +33,31 @@ def remove_google():
     os.system(adb_command + "shell pm uninstall --user 0 com.google.android.apps.restore")
     os.system(adb_command + "shell pm uninstall --user 0 com.google.android.gm")
     os.system(adb_command + "shell pm uninstall --user 0 com.google.android.youtube")
-    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.docs")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.apps.docs")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.videos")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.apps.photos")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.apps.youtube.music")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.projection.gearhead")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.apps.wellbeing")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.marvin.talkback")
+    os.system(adb_command + "shell pm uninstall --user 0 com.google.android.overlay.searchlauncherconfig")
     os.system(adb_command + "shell pm uninstall --user 0 com.google.android.syncadapters.calendar")
     os.system(adb_command + "shell pm uninstall --user 0 com.google.android.syncadapters.contacts")
     os.system(adb_command + "install aurorastore.apk")
     clear_screen()
 
-# Missing packages to remove, to be fixed:
 def remove_qualcomm():
     print("Removing Qualcomm bloat/spyware...")
-    os.system(adb_command + "shell pm uninstall --user 0 com.qualcomm.qti.service.telemetry")
+    os.system(adb_command + "shell pm uninstall --user 0 com.qualcomm.qti.qms.service.telemetry")
+    os.system(adb_command + "shell pm uninstall --user 0 com.qualcomm.location")
+    os.system(adb_command + "shell pm uninstall --user 0 com.qualcomm.qti.optinoverlay")
     clear_screen()
 
-# This doesnt do anything yet:
 def remove_country_specific():
     print("Removing country specific bloat/spyware...")
+    os.system(adb_command + "shell pm uninstall --user 0 android.autoinstalls.config.vodafone.fairphone3")
+    os.system(adb_command + "shell pm uninstall --user 0 com.orange.update")
+    os.system(adb_command + "shell pm uninstall --user 0 com.orange.aura.oobe")
     clear_screen()
 
 def remove_other_android_bloat():
@@ -59,13 +68,12 @@ def remove_other_android_bloat():
     os.system(adb_command + "shell pm uninstall --user 0 com.fairphone.myfairphone")
     clear_screen()
 
-# Package name still has to be figured out, this will work soon:
 def enable_pie_theme():
     print("Enabling PIE theme...")
-#    os.system(adb_command + "shell overlay enable com.android.internal.systemui.theme.filled.android")
-#    os.system(adb_command + "shell overlay enable com.android.internal.systemui.theme.filled.launcher")
-#    os.system(adb_command + "shell overlay enable com.android.internal.systemui.theme.filled.launcher")
-#    os.system(adb_command + "shell overlay enable com.android.internal.systemui.theme.filled.systemui")
+    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.android")
+    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.launcher")
+    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.settings")
+    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.systemui")
     clear_screen()
 
 def install_apps():
