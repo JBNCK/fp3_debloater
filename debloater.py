@@ -70,10 +70,10 @@ def remove_other_android_bloat():
 
 def enable_pie_theme():
     print("Enabling PIE theme...")
-    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.android")
-    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.launcher")
-    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.settings")
-    os.system(adb_command + "shell overlay enable com.android.theme.icon_pack.filled.systemui")
+    os.system(adb_command + "shell cmd overlay enable com.android.theme.icon_pack.filled.android")
+    os.system(adb_command + "shell cmd overlay enable com.android.theme.icon_pack.filled.launcher")
+    os.system(adb_command + "shell cmd overlay enable com.android.theme.icon_pack.filled.settings")
+    os.system(adb_command + "shell cmd overlay enable com.android.theme.icon_pack.filled.systemui")
     clear_screen()
 
 def install_apps():
